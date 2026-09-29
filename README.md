@@ -40,10 +40,10 @@ pip install -r requirements.txt
 python cli.py run Qwen/Qwen2.5-0.5B-Instruct
 ```
 
-For a custom architecture (like Q-U-164M's `instruct/` subfolder):
+For a custom architecture (like Q-U-164M):
 
 ```bash
-python cli.py run q-project/Q-164M --subfolder instruct --trust-remote-code
+python cli.py run q-project/Q-U-164M --trust-remote-code
 ```
 
 Submit your result to the public leaderboard (needs `hf auth login` with a token that has write access to
@@ -74,7 +74,7 @@ Current results (see the dataset for the live version):
 | SmolLM2-135M-Instruct | 135M | 5% | 6% | 53% | 23% |
 | SmolLM2-360M-Instruct | 360M | 50% | 50% | 50% | 18% |
 | Qwen2.5-0.5B-Instruct | 500M | 45% | 50% | 62% | 24% |
-| Q-U-164M (`q-project/Q-164M`, `instruct/`) | 164M | 35% | 25% | 43% | 26% |
+| Q-U-164M (`q-project/Q-U-164M`) | 164M | 35% | 25% | 43% | 26% |
 
 ## Repository contents
 
